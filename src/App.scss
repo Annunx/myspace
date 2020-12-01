@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  .App-header {
+    height: 56px;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    .App-header-box {
+      height: 100%;
+      width: 100%;
+      max-width: 1200px;
+      min-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .App-logo {
+        font-family: AlexBrush;
+        font-size: 32px;
+        color: #212121;
+        cursor: pointer;
+      }
+      .App-account {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+  }
+}
+
+
+

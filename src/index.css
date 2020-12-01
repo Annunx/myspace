@@ -1,3 +1,12 @@
+/* 添加谷歌字体 */
+/* AlexBrush-Regular */
+/* http://www.googlefonts.net/specimen/Alex+Brush */
+/* SIL Open Font License */
+@font-face {
+  font-family: "AlexBrush";
+  src: url("./assets/fonts/AlexBrush-Regular.ttf");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
