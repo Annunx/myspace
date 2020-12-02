@@ -1,10 +1,11 @@
 .App {
   text-align: center;
   min-height: 100vh;
+  background: #020305 url("./assets/images/moon.jpg") no-repeat center;
+  background-size: cover;
   .App-header {
-    height: 56px;
+    height: 100vmin;
     width: 100%;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
     .App-header-box {
       height: 100%;
       width: 100%;
@@ -17,8 +18,9 @@
       .App-logo {
         font-family: AlexBrush;
         font-size: 32px;
-        color: #212121;
+        color: #fff;
         cursor: pointer;
+        -webkit-text-stroke: 1px #fff;
       }
       .App-account {
         display: flex;
